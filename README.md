@@ -16,9 +16,12 @@ function alertSuccess(msg) {
     alert(msg);
 }
 ```
+
+
 调用失败的回调函数
 ```
 function alertFail(msg) {
-alert('调用OC失败: ' + msg);
+    alert('调用OC失败: ' + msg);
 }
 ```
+感谢[](https://github.com/3tinkers/TKImageView)的作者，我只是代码的搬运工...
