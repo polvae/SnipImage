@@ -25,4 +25,5 @@ function alertFail(msg) {
     alert('调用OC失败: ' + msg);
 }
 ```
+将`插件`文件下`PhotoSnipPlugin`导入到工程即可使用 <br>
 感谢[作者3tinkers/TKImageView](https://github.com/3tinkers/TKImageView)，我只是代码的搬运工...

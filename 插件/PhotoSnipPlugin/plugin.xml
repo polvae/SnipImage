@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com.kingo.PhotoSnip" version="0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android"><name>PhotoSnipPlugin</name><js-module name="PhotoSnipPlugin" src="www/PhotoSnipPlugin.js"><clobbers target="cordova.plugins.PhotoSnipPlugin" /></js-module><platform name="ios"><config-file parent="/*" target="config.xml"><feature name="PhotoSnipPlugin"><param name="ios-package" value="PhotoSnipPlugin" /></feature></config-file><source-file src="src/ios/PhotoSnipPlugin.m" />
+
+
+<header-file src="src/ios/PhotoSnip/CropImageViewController.h" />
+<source-file src="src/ios/PhotoSnip/CropImageViewController.m" />
+<source-file src="src/ios/PhotoSnip/CropImageViewController.xib" />
+
+<header-file src="src/ios/PhotoSnip/TKImageView.h" />
+<source-file src="src/ios/PhotoSnip/TKImageView.m" />
+
+<resource-file src="src/ios/PhotoSnip/Resource/arrow1.png"/>
+<resource-file src="src/ios/PhotoSnip/Resource/arrow2.png"/>
+<resource-file src="src/ios/PhotoSnip/Resource/arrow3.png"/>
+<resource-file src="src/ios/PhotoSnip/Resource/arrow4.png"/>
+
+<resource-file src="src/ios/PhotoSnip/Resource/crop_cancel.png"/>
+<resource-file src="src/ios/PhotoSnip/Resource/crop_ok.png"/>
+ <framework src="QuartzCore.framework" />
+</platform></plugin>
