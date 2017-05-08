@@ -6,5 +6,13 @@
         },
         "is_top_level": true,
         "variables": {}
+    },
+    "com.kingo.PhotoSnip": {
+        "source": {
+            "type": "local",
+            "path": "/Users/qingguoruanjian/Movies/项目相关/截图插件/截图插件3(不等比截图)/插件/PhotoSnipPlugin"
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }

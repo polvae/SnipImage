@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
@@ -14,6 +13,17 @@
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
+		60CD2FE140CD4AC587813D9A /* PhotoSnipPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = E3AA9F4E04F94987AA8064AA /* PhotoSnipPlugin.m */; };
+		8CF59C350FF440FDB5E337F6 /* CropImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 997BC7D316664F3CA932F5F3 /* CropImageViewController.m */; };
+		C9B29FF1780C4A2B9D879AB1 /* CropImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3175F6C019040288BCC3F94 /* CropImageViewController.xib */; };
+		A7407C55E0D543058F6A8D5B /* TKImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C7C482217A45B2ACE802BE /* TKImageView.m */; };
+		95B954BF23584A60AA944FC8 /* arrow1.png in Resources */ = {isa = PBXBuildFile; fileRef = 85AE41EDDF88490194FC6114 /* arrow1.png */; };
+		19F81464DD904FF5848B4CB9 /* arrow2.png in Resources */ = {isa = PBXBuildFile; fileRef = A456CAB5A7154308BCDDA79F /* arrow2.png */; };
+		1F889CE5A8A046C992A723E2 /* arrow3.png in Resources */ = {isa = PBXBuildFile; fileRef = AE3A0455B9E742ADA5DCCBD3 /* arrow3.png */; };
+		DB1C354FC3E640FE8BA2D1E1 /* arrow4.png in Resources */ = {isa = PBXBuildFile; fileRef = AE24BAAE5CF54A518BABFBE2 /* arrow4.png */; };
+		670CD2FAFCD6449D9A49705D /* crop_cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 984D72E88C7249FB9AB4A14D /* crop_cancel.png */; };
+		159CA913453E4812BD4F278E /* crop_ok.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EB25ACA96C2416DA3394D9E /* crop_ok.png */; };
+		2CC755DAB21E454FAB2D32AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F9D8B1542174A1A93FB5AB8 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +64,19 @@
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = SnipImage/config.xml; sourceTree = "<group>"; };
+		E3AA9F4E04F94987AA8064AA /* PhotoSnipPlugin.m */ = {isa = PBXFileReference; name = "PhotoSnipPlugin.m"; path = "com.kingo.PhotoSnip/PhotoSnipPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		997BC7D316664F3CA932F5F3 /* CropImageViewController.m */ = {isa = PBXFileReference; name = "CropImageViewController.m"; path = "com.kingo.PhotoSnip/CropImageViewController.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		A3175F6C019040288BCC3F94 /* CropImageViewController.xib */ = {isa = PBXFileReference; name = "CropImageViewController.xib"; path = "com.kingo.PhotoSnip/CropImageViewController.xib"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = file.xib; explicitFileType = undefined; includeInIndex = 0; };
+		C3C7C482217A45B2ACE802BE /* TKImageView.m */ = {isa = PBXFileReference; name = "TKImageView.m"; path = "com.kingo.PhotoSnip/TKImageView.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		75557CC8675843AA8E3D8BA5 /* CropImageViewController.h */ = {isa = PBXFileReference; name = "CropImageViewController.h"; path = "com.kingo.PhotoSnip/CropImageViewController.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		4718B1E07BEA4462AE4C0DFC /* TKImageView.h */ = {isa = PBXFileReference; name = "TKImageView.h"; path = "com.kingo.PhotoSnip/TKImageView.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		85AE41EDDF88490194FC6114 /* arrow1.png */ = {isa = PBXFileReference; name = "arrow1.png"; path = "arrow1.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A456CAB5A7154308BCDDA79F /* arrow2.png */ = {isa = PBXFileReference; name = "arrow2.png"; path = "arrow2.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AE3A0455B9E742ADA5DCCBD3 /* arrow3.png */ = {isa = PBXFileReference; name = "arrow3.png"; path = "arrow3.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AE24BAAE5CF54A518BABFBE2 /* arrow4.png */ = {isa = PBXFileReference; name = "arrow4.png"; path = "arrow4.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		984D72E88C7249FB9AB4A14D /* crop_cancel.png */ = {isa = PBXFileReference; name = "crop_cancel.png"; path = "crop_cancel.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8EB25ACA96C2416DA3394D9E /* crop_ok.png */ = {isa = PBXFileReference; name = "crop_ok.png"; path = "crop_ok.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5F9D8B1542174A1A93FB5AB8 /* QuartzCore.framework */ = {isa = PBXFileReference; name = "QuartzCore.framework"; path = "System/Library/Frameworks/QuartzCore.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +85,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
+				2CC755DAB21E454FAB2D32AA /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +148,12 @@
 				3047A50E1AB8057F00498E2A /* config */,
 				8D1107310486CEB800E47090 /* SnipImage-Info.plist */,
 				6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */,
+				85AE41EDDF88490194FC6114 /* arrow1.png */,
+				A456CAB5A7154308BCDDA79F /* arrow2.png */,
+				AE3A0455B9E742ADA5DCCBD3 /* arrow3.png */,
+				AE24BAAE5CF54A518BABFBE2 /* arrow4.png */,
+				984D72E88C7249FB9AB4A14D /* crop_cancel.png */,
+				8EB25ACA96C2416DA3394D9E /* crop_ok.png */,
 			);
 			name = Resources;
 			path = SnipImage/Resources;
@@ -132,6 +162,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5F9D8B1542174A1A93FB5AB8 /* QuartzCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -157,6 +188,12 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				E3AA9F4E04F94987AA8064AA /* PhotoSnipPlugin.m */,
+				997BC7D316664F3CA932F5F3 /* CropImageViewController.m */,
+				A3175F6C019040288BCC3F94 /* CropImageViewController.xib */,
+				C3C7C482217A45B2ACE802BE /* TKImageView.m */,
+				75557CC8675843AA8E3D8BA5 /* CropImageViewController.h */,
+				4718B1E07BEA4462AE4C0DFC /* TKImageView.h */,
 			);
 			name = Plugins;
 			path = SnipImage/Plugins;
@@ -199,7 +236,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 820;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
 						DevelopmentTeam = 5P3KZPT5G3;
@@ -246,6 +283,12 @@
 				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
 				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
 				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
+				95B954BF23584A60AA944FC8 /* arrow1.png in Resources */,
+				19F81464DD904FF5848B4CB9 /* arrow2.png in Resources */,
+				1F889CE5A8A046C992A723E2 /* arrow3.png in Resources */,
+				DB1C354FC3E640FE8BA2D1E1 /* arrow4.png in Resources */,
+				670CD2FAFCD6449D9A49705D /* crop_cancel.png in Resources */,
+				159CA913453E4812BD4F278E /* crop_ok.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +320,10 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
+				60CD2FE140CD4AC587813D9A /* PhotoSnipPlugin.m in Sources */,
+				8CF59C350FF440FDB5E337F6 /* CropImageViewController.m in Sources */,
+				C9B29FF1780C4A2B9D879AB1 /* CropImageViewController.xib in Resources */,
+				A7407C55E0D543058F6A8D5B /* TKImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
