@@ -1,6 +1,6 @@
 # com.cordova.SnipImage
 ### Cordova SnipImage plugin(只适用于iOS端的Cordova截图插件)
-####将iOS原生代码对Cordova插件的简单封装
+####将iOS原生代码对Cordova插件的简单封装 <br>
 ![](https://github.com/polvae/SnipImage/blob/master/PlayerRecord.gif) <br>
 js端代码(调用iOS原生代码)
 ```js
